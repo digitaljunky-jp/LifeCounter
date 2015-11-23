@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <info.gravitypianist.lifecounter.view.FlipTextView
         android:id="@+id/point_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,28 +17,28 @@
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
 
-        <Button
+        <info.gravitypianist.lifecounter.view.FlipButton
             android:id="@+id/plus_5_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="+5" />
 
-        <Button
+        <info.gravitypianist.lifecounter.view.FlipButton
             android:id="@+id/plus_1_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="+1" />
 
-        <Button
+        <info.gravitypianist.lifecounter.view.FlipButton
             android:id="@+id/minus_1_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="-1" />
 
-        <Button
+        <info.gravitypianist.lifecounter.view.FlipButton
             android:id="@+id/minus_5_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
